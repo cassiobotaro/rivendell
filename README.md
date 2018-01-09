@@ -8,3 +8,5 @@
 * [pyenv + pipenv](pyenvpipenv/)
 
 * [order dict by it's values](orderdictbyvalue/)
+
+* [one line christmas](onelinechristmas/)
