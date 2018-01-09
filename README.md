@@ -1,2 +1,10 @@
 # Rivendell
- :seedling: Local de paz e beleza onde conhecimentos e histórias são preservados.
+:seedling: A place of peace and beauty where knowledge and stories are preserved.
+
+## Summary
+
+* [tox + pipenv](toxpipenv/)
+
+* [pyenv + pipenv](pyenvpipenv/)
+
+* [order dict by it's values](orderdictbyvalue/)
