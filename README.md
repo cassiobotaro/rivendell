@@ -12,3 +12,5 @@
 * [one line christmas](onelinechristmas/)
 
 * [copy extension](copyextension/)
+
+* [Σ (summation)](summation/)
