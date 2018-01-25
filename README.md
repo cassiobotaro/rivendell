@@ -12,3 +12,4 @@
 |[Copy extension](copyextension/)| Small CLI to to copy all files of 'extension' from 'source' to 'destiny'.|
 |[Σ](summation/)| Sum terms from lower_bound until upper_bound, applying some function on each term.|
 |[Dockerize](dockerize/)| Run containers simutaneously and get output.|
+|[xlsx2csv](xlsx2csv/)| convert xlsx to csv |
