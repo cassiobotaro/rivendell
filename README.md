@@ -13,3 +13,4 @@
 |[Σ](summation/)| Sum terms from lower_bound until upper_bound, applying some function on each term.|
 |[Dockerize](dockerize/)| Run containers simutaneously and get output.|
 |[xlsx2csv](xlsx2csv/)| convert xlsx to csv |
+|[Multi-stage build with Python](multistagepython/)|How to optimize your python image using multi-stage build. |
