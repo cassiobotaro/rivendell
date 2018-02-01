@@ -12,5 +12,5 @@ def Σ(lower_bound, upper_bound, function):
     >>> Σ(1,5,lambda x:x)  # 1 + 2 + 3 + 4 + 5 = 15
     15
     '''
-    return sum([function(index) for index in range(lower_bound,
-                                                   upper_bound + 1)])
+    return sum(function(index) for index in range(lower_bound,
+                                                   upper_bound + 1))
