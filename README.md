@@ -14,4 +14,4 @@
 |[Dockerize](dockerize/)| Run containers simutaneously and get output.|
 |[xlsx2csv](xlsx2csv/)| convert xlsx to csv |
 |[Multi-stage build with Python](multistagepython/)|How to optimize your python image using multi-stage build. |
-|[Paulinha's class](paulinhaclass/)| Deep learning fundamentals by @paulinhacnn |
+|[Paulinha's class](paulinhaclass/)| Deep learning fundamentals by [@paulinhacnn](http://github.com/paulinhacnn) |
