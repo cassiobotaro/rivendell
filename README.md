@@ -16,3 +16,4 @@
 |[Multi-stage build with Python](multistagepython/)|How to optimize your python image using multi-stage build. |
 |[Paulinha's class](paulinhaclass/)| Deep learning fundamentals by [@paulinhacnn](http://github.com/paulinhacnn) |
 |[algorithms](algorithms/)| Many algorithms from book "Entendendo Algoritmos" |
+|[Async with return](asyncreturn/)| Async functions that return values and how to retrieve these values.|
