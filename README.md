@@ -17,3 +17,4 @@
 |[Paulinha's class](paulinhaclass/)| Deep learning fundamentals by [@paulinhacnn](http://github.com/paulinhacnn) |
 |[algorithms](algorithms/)| Many algorithms from book "Entendendo Algoritmos" |
 |[Async with return](asyncreturn/)| Async functions that return values and how to retrieve these values.|
+|[Data Analysis with pandas](dataanalysis/)| Notebooks about data analysis with python|
