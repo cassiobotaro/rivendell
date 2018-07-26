@@ -13,6 +13,7 @@ Fundamentals of computer vision.
 ## Modules
 
 |module|description|
+|:----|:----------|
 | always_blue.py |  Module to modify an image pixels to blue |
 | change_color_component.py |  Module to modify an image pixels based on it's position |
 | change_green_component.py |  Module to modify an image pixels based on it's position |
