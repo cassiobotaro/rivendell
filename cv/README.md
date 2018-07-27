@@ -20,3 +20,5 @@ Fundamentals of computer vision.
 | metadata.py |  Module to get image metadata |
 | pallete.py |  module to generate images based on colors |
 | pixel.py |  Module to read one pixel |
+| green_slice.py | Module to change a slice of pixels into green |
+| pallete_improved.py | As pallete but smaller |
