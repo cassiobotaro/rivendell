@@ -33,3 +33,5 @@ Fundamentals of computer vision.
 | rotate.py | Module to rotate an image |
 | mask.py | Module that apply a bitwise and mask |
 | color_system.py | Module to show other color systems |
+| split_channels.py | Module that split color channels |
+| merge_channels.py| Module that split color channels and merge with empty channels to generate specific colored images |
