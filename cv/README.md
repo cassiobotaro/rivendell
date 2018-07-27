@@ -29,3 +29,7 @@ Fundamentals of computer vision.
 | crop.py | Module to crop an image |
 | resize.py | Module to resize an image |
 | resize_slice.py | Module to resize an image using slicing |
+| flip.py | Module to flip an image |
+| rotate.py | Module to rotate an image |
+| mask.py | Module that apply a bitwise and mask |
+| color_system.py | Module to show other color systems |

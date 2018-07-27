@@ -6,5 +6,5 @@ height, width, _ = image.shape
 for y in range(height):
     for x in range(width):
         image[y, x] = (0, (x * y) % 256, 0)
-cv2.imshow("Modified image", image)
+cv2.imshow('Modified image', image)
 cv2.waitKey(0)  # wait to press any key

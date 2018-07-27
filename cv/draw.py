@@ -1,7 +1,7 @@
 # Module to draw circles, rectangles and lines
 import cv2
 
-image = cv2.imread("lena.jpg")
+image = cv2.imread('lena.jpg')
 
 RED = (0, 0, 255)
 GREEN = (0, 255, 0)
@@ -15,5 +15,5 @@ height, width, _ = image.shape
 (X, Y) = (width // 2, height // 2)
 for radius in range(0, 175, 15):
     cv2.circle(image, (X, Y), radius, RED)
-cv2.imshow("Drawing over image", image)
+cv2.imshow('Drawing over image', image)
 cv2.waitKey(0)

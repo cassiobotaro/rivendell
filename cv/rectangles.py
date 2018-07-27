@@ -1,6 +1,6 @@
 # Module to draw rectangles in the image
 import cv2
-image = cv2.imread("lena.jpg")
+image = cv2.imread('lena.jpg')
 # Creates a blue rectangle over the entire width of the image
 image[30:50, :] = (255, 0, 0)
 # Creates a red square
@@ -16,6 +16,6 @@ image[250:350, 300:400] = (255, 255, 255)
 # Creates a black rectangle
 image[70:100, 300: 450] = (0, 0, 0)
 
-cv2.imshow("Altered image", image)
-cv2.imwrite("rectangles.jpg", image)
+cv2.imshow('Altered image', image)
+cv2.imwrite('rectangles.jpg', image)
 cv2.waitKey(0)
