@@ -23,3 +23,7 @@ Fundamentals of computer vision.
 | pixel.py |  Module to read one pixel |
 | green_slice.py | Module to change a slice of pixels into green |
 | pallete_improved.py | As pallete but smaller |
+| rectangles.py | Module to daw rectangles in the image |
+| draw.py | Module to draw rectangles in the image |
+| text.py | Module to write a text into an image |
+| crop.py | Module to crop an image |
