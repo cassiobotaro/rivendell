@@ -27,3 +27,5 @@ Fundamentals of computer vision.
 | draw.py | Module to draw rectangles in the image |
 | text.py | Module to write a text into an image |
 | crop.py | Module to crop an image |
+| resize.py | Module to resize an image |
+| resize_slice.py | Module to resize an image using slicing |
