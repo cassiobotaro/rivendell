@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 opencv-python = "*"
+numpy = "*"
 
 [dev-packages]
 
