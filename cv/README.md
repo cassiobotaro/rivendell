@@ -8,7 +8,7 @@ Fundamentals of computer vision.
 
 ## How to run
 
-`pipenv run <filename.py>`
+`pipenv run python <filename.py>`
 
 ## Modules
 
