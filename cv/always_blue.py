@@ -5,6 +5,6 @@ height, width, _ = image.shape
 BLUE = (255, 0, 0)
 for y in range(height):
     for x in range(width):
-        image[y, x] = (255, 0, 0)
+        image[y, x] = BLUE
 cv2.imshow('Modified image', image)
 cv2.waitKey(0)  # wait to press any key

@@ -3,12 +3,9 @@ import cv2
 
 image = cv2.imread('lena.jpg')
 height, width, channels = image.shape
-print('Width in pixels: ', end='')
-print(width)  # image width
-print('Height in pixels: ', end='')
-print(height)  # image height
-print('Qty of channels: ', end='')
-print(channels)
+print(f'Width in pixels: {width}')
+print(f'Height in pixels: {height}')
+print(f'Qty of channels: {channels}')
 # Show image using function imshow
 cv2.imshow('Window\'s name', image)
 cv2.waitKey(0)  # wait to press any key
