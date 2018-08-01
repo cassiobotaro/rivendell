@@ -35,3 +35,6 @@ Fundamentals of computer vision.
 | color_system.py | Module to show other color systems |
 | split_channels.py | Module that split color channels |
 | merge_channels.py| Module that split color channels and merge with empty channels to generate specific colored images |
+| histogram.py | Module that plot gray scale image histogram |
+| histogram_color.py | Module that plot color image histogram |
+| equalize_histogram.py | Module to equalize image histogram |
