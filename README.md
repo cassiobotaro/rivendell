@@ -19,3 +19,4 @@
 |[Async with return](asyncreturn/)| Async functions that return values and how to retrieve these values.|
 |[Data Analysis with pandas](dataanalysis/)| Notebooks about data analysis with python|
 |[Computer vision 101](cv/)| Algorithms to learning computer vision|
+|[Learning opencv](learningopencv/)| Work in progess |
