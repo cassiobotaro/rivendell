@@ -6,6 +6,3 @@ verify_ssl = true
 
 [packages]
 requests = "*"
-
-[requires]
-python_version = "3.5"
