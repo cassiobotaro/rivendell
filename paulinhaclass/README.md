@@ -2,10 +2,10 @@
 
 Deep learning fundamentals.
 
-## Requirements
-
-`pipenv install`
-
 ## How to run
 
-`pipenv run jupyter`
+```bash
+$ python -m venv .env
+$ source .env/bin/activate
+$ jupyter notebook
+```
