@@ -1,5 +1,3 @@
-// print( '\n'.join([''.join([xxx for x in range(-30, 30)]) for y in range(30, -30, -1)]) )
-
 package main
 
 import (
