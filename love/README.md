@@ -2,6 +2,8 @@
 
 Draw a heart using a name.
 
+![heart](./heart.png)
+
 ## How to build
 
 When build, set main.love or "Love" will be used as default.
