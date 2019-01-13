@@ -21,4 +21,4 @@
 |[Computer vision 101](cv/)| Algorithms to learning computer vision. |
 |[Learning opencv](learningopencv/)|  Opencv library studies(python version). |
 |[Download files using selenium](seleniumdownload/)| Download file using selenium. |
-|[Love](love/)| Draw a heart with golang using a name. |
+|[Love](love/)| Draw a heart using a name. |

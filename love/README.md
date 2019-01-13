@@ -1,6 +1,6 @@
 # Love
 
-Draw a heart with golang using a name.
+Draw a heart using a name.
 
 ## How to build
 
