@@ -4,7 +4,7 @@
 
 Crawl a website and download some content using firefox headless.
 
-![File to download](../assets/site.png)
+![File to download](../../assets/site.png)
 
 
 ## Discuss
@@ -13,7 +13,7 @@ Before you ask me why use selenium at this example. this example is only a repro
 
 when you click in a downlodable link, we should observe reponses content-type.
 
-![Response content type](../assets/mime-response.png)
+![Response content type](../../assets/mime-response.png)
 
 These lines are responsible to configure the current folder as place where files are placed.
 Last line tells to the browser to don't ask before download some content-type(A list can be passed here).
