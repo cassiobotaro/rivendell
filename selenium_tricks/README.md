@@ -27,6 +27,9 @@ $ pip install -r requirements.txt
 
 ## TODO
 
+- problem/discuss headless
+- move localhost api from download_files_headless
+
 - download silent
 - proxy
 - crop image

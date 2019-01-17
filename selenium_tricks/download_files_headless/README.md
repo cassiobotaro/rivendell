@@ -63,6 +63,12 @@ Another thing is that only works on newer versions of google chrome.
 
 ## How to run
 
+Start the test server:
+
+`flask run`
+
+and then:
+
 `python firefox_example.py`
 
 or
