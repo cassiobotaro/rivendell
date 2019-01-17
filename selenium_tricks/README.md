@@ -33,3 +33,5 @@ $ pip install -r requirements.txt
 - page objects
 - dockerize
 - remote
+- wait open a new window
+- image is loaded
