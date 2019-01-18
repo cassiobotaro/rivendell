@@ -65,9 +65,12 @@ Another thing is that only works on newer versions of google chrome.
 
 Start the test server:
 
-`flask run`
+```bash
+cd test_api
+flask run &
+```
 
-and then:
+return to this repository and then:
 
 `python firefox_example.py`
 
