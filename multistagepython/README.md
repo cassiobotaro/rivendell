@@ -44,3 +44,29 @@ Image size reduce once more.
 To check if it's running, type:
 
 `docker run --rm step3`
+
+### Step 4
+
+Alpine don't have whells and it is a problem, then we will use slim images to reduce image size, and aldo multi stage building to cache our dependencies and improve build speed.
+
+
+`docker build -t step4 -f Dockerfile.step4 .`
+
+To check if it's running, type:
+
+`docker run --rm step4`
+
+
+### Conclusion
+
+Multi stage build can help when you have to compile some dependencies, but as python have [wheels](https://pythonwheels.com/), maybe it's not the best choice for the language.
+
+In terms of size, build time, and another facilities, `python:3-slim` was the best choice. Alpine is a tiny image, but don't support wheels and also have problems with system dependencies.
+
+```bash
+docker images --filter=reference='step*' --format='{{.Repository}}:{{.Tag}} - {{.Size}}' | sort
+step1:latest - 1.04GB
+step2:latest - 429MB
+step3:latest - 328MB
+step4:latest - 286MB
+```
