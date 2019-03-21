@@ -12,4 +12,10 @@ When build, set main.love or "Love" will be used as default.
 
 ## How to run
 
+**go version**
+
 `go run -ldflags="-X main.love=<name>" love.go`
+
+**python version**
+
+`python love.py`
