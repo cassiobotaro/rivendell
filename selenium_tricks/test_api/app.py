@@ -1,8 +1,13 @@
 import os
 
-from flask import Flask, send_from_directory, render_template_string
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template("hello.html")
 
 
 @app.route("/files/<path:filename>")
@@ -13,14 +18,7 @@ def download_files(filename):
     )
 
 
-LIST_TEMPLATE_STRING = """
-{% for file in  files %}
-<a href="{{ url_for('download_files', filename=file) }}">{{file}}</a>
-{% endfor %}
-"""
-
-
 @app.route("/files")
 def list_files():
     files = os.listdir(os.path.join(app.root_path, "files"))
-    return render_template_string(LIST_TEMPLATE_STRING, files=files)
+    return render_template("list_files.html", files=files)
