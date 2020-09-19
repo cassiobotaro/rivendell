@@ -2,9 +2,7 @@
 
 Lights Out is game based on simple concept. Clicking on a cell toggles that cell and each of its immediate neighbors. The goal is to turn out all the lights, ideally with the minimum number of clicks.
 
-![Game Image](./game1.png)
-
-![Game Image](./game2.png)
+![Game Image](./game1.png) ![Game Image](./game2.png)
 
 ## Requirements
 
