@@ -23,3 +23,4 @@
 |[Love](love/)| Draw a heart using a name. |
 |[Selenium Tricks](selenium_tricks/)| Many tricks using selenium. |
 |[Lights Out](lights_out/)| Game to practice OOP. |
+|[Steganography](hiding_message_in_an_image//)| Hiding message in an image |
