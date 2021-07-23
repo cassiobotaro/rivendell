@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-playground"
+version = "0.1.0"
+description = ""
+authors = ["cassiobotaro <cassiobotaro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.67.0"
+uvicorn = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
