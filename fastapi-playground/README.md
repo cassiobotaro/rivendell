@@ -11,6 +11,8 @@ Use poetry to install dependencies:
 
     $ poetry run uvicorn main:app --reload
 
+## Questions
+
 **Q: How to receive different types of payload?**
 
 We can use `typing.Union` as you can see in `/union` endpoint.
