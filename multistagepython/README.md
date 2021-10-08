@@ -10,7 +10,7 @@ Build the fist image, that uses python:3(debian) as base.
 
 `docker build -t step1 -f Dockerfile.step1 .`
 
-This generate a fat image, around 900 mb.
+This generate a fat image, around 1 GB.
 
 To check if it's running, type:
 
@@ -47,7 +47,8 @@ To check if it's running, type:
 
 ### Step 4
 
-Alpine don't have whells and it is a problem, then we will use slim images to reduce image size, and aldo multi stage building to cache our dependencies and improve build speed.
+Let's create a minimal dockerfile using `python:3-slim` as base.
+Alpine don't have whells and it is a problem, then we will use slim images to reduce image size.
 
 
 `docker build -t step4 -f Dockerfile.step4 .`
@@ -56,17 +57,30 @@ To check if it's running, type:
 
 `docker run --rm step4`
 
+### Step 5
+
+Exactly like step4 but we use multi stage building to cache our dependencies and improve build speed.
+
+`docker build -t step5 -f Dockerfile.step5 .`
+
+To check if it's running, type:
+
+`docker run --rm step5`
+
 
 ### Conclusion
 
 Multi stage build can help when you have to compile some dependencies, but as python have [wheels](https://pythonwheels.com/), maybe it's not the best choice for the language.
 
-In terms of size, build time, and another facilities, `python:3-slim` was the best choice. Alpine is a tiny image, but don't support wheels and also have problems with system dependencies.
+Alpine is a tiny image, but don't support wheels and also have problems with system dependencies. Build takes a lot of time.
 
 ```bash
 docker images --filter=reference='step*' --format='{{.Repository}}:{{.Tag}} - {{.Size}}' | sort
 step1:latest - 1.04GB
-step2:latest - 429MB
-step3:latest - 328MB
-step4:latest - 286MB
+step2:latest - 333MB
+step3:latest - 192MB
+step4:latest - 247MB
+step5:latest - 259MB
 ```
+
+Surprisingly, multi-stage build (step 5) is greater than minimum build with `python:3-slim` as base (step 4).
