@@ -23,5 +23,6 @@
 |[Love](love/)| Draw a heart using a name. |
 |[Selenium Tricks](selenium_tricks/)| Many tricks using selenium. |
 |[Lights Out](lights_out/)| Game to practice OOP. |
-|[Steganography](hiding_message_in_an_image//)| Hiding message in an image |
+|[Steganography](hiding_message_in_an_image/)| Hiding message in an image |
 |[FastAPI Playground](fastapi-playground/)| Some experiments with FastAPI |
+|[Snake game](snake_game/)| Snake game using Pygame |
