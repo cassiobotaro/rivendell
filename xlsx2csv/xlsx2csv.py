@@ -26,7 +26,7 @@ parser.add_argument('--sheet', required=False, help='name of the sheet')
 args = parser.parse_args()
 
 # load file, but don't convert fields
-workbook = openpyxl.load_workbook(filename=args.filename, guess_types=False)
+workbook = openpyxl.load_workbook(filename=args.filename)
 # get first sheet or use name passed as parameter
 sheet_name, *_ = workbook.sheetnames
 if args.sheet:
