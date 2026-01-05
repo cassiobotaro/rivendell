@@ -2,13 +2,9 @@
 
 Fundamentals of computer vision.
 
-## Requirements
-
-`poetry install`
-
 ## How to run
 
-`poetry run python <filename.py>`
+`uv run python <filename.py>`
 
 ## Modules
 

@@ -1,25 +1,13 @@
 # Hiding message in an image
 
-# Step 1 - Create virtual environment
+# Step 1 - Hiding image
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
+uvx --from stegano stegano-lsb hide -i ./cv/lena.jpg -m "Secret Message" -o lena1.png
 ```
 
-# Step 2 - Install Dependencies
+# Step 2 - To reveal image execute:
 
 ```bash
-python -m pip install stegano
-```
-
-# Step 3 - Hiding image
-
-```bash
-stegano-lsb hide -i ./tests/sample-files/Lenna.png -m "Secret Message" -o Lena1.png
-```
-
-# Step 4 - To reveal image execute:
-
-```bash
-stegano-lsb reveal -i Lena1.png
+uvx --from stegano stegano-lsb reveal -i lena1.png
 ```

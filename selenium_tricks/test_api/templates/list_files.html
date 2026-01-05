@@ -1,6 +1,0 @@
-{% extends 'base.html' %}
-{% block content %}
-    {% for file in  files %}
-        <a href="{{ url_for('download_files', filename=file) }}">{{file}}</a>
-    {% endfor %}
-{% endblock %}

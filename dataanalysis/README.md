@@ -5,7 +5,5 @@ This module contains notebooks made by course `data analysis with pandas` of ude
 ## How to run
 
 ```bash
-$ python -m venv .env
-$ source .env/bin/activate
-$ jupyter notebook
+uv run jupyter notebook
 ```

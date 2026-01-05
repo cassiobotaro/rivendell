@@ -7,6 +7,6 @@ containers simutaneously, each one doing some task.
 
 You should have [docker](https://docs.docker.com/engine/installation/) installed locally.
 
-Install requirements: `pipenv install`
-
-`pipenv run python run.py`
+```bash
+uv run dockerize.py
+```
