@@ -26,6 +26,7 @@ uv install
 |[One line christmas](onelinechristmas/)| Merry christmas with just one line. |
 |[Order dict by values](orderdictbyvalue/)| Order dict by it's values. |
 |[Paulinha's class](paulinhaclass/)| Deep learning fundamentals by [@paulinhacnn](http://github.com/paulinhacnn). |
+|[Roman numerals](roman/)| Leverages Python's __getattr__ to dynamically resolve and convert Roman numerals into integers.  |
 |[Snake game](snake_game/)| Snake game using Pygame |
 |[Steganography](hiding_message_in_an_image/)| Hiding message in an image |
 |[algorithms](algorithms/)| Many algorithms from book "Entendendo Algoritmos". |
