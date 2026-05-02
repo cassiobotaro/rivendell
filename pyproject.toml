@@ -7,7 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "docker>=7.1.0",
     "matplotlib>=3.10.9",
-    "notebook>=7.5.1",
+    "notebook>=7.5.6",
     "opencv-python>=4.12.0.88",
     "openpyxl>=3.1.5",
     "pandas>=2.3.3",
