@@ -16,7 +16,7 @@ def run_container(command):
     client = None
     try:
         client = docker.from_env()
-        output = client.containers.run("alpine:3.24", command, remove=True)
+        output = client.containers.run("alpine:latest", command, remove=True)
         print(output.decode("utf-8").strip())
     except DockerException as e:
         print(f"Failed to run {command}: {e}")
