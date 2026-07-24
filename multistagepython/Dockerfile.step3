@@ -1,15 +1,21 @@
-FROM python:3.9-alpine as builder
-RUN apk add --update build-base
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+FROM python:3.14-alpine AS builder
 
-
-FROM python:3.9-alpine
-# required by pandas
-RUN apk add --update libstdc++
-COPY --from=builder /root/.cache /root/.cache
-COPY --from=builder requirements.txt .
-RUN pip install -r requirements.txt && rm -rf /root/.cache
 WORKDIR /app
-COPY . /app
+
+COPY requirements.txt .
+RUN pip wheel --no-cache-dir --wheel-dir /wheels -r requirements.txt
+
+
+FROM python:3.14-alpine
+
+WORKDIR /app
+
+COPY requirements.txt .
+# Bind-mount the wheels instead of COPY: they are visible to pip during this
+# RUN, but never become a layer of the final image.
+RUN --mount=type=bind,from=builder,source=/wheels,target=/wheels \
+    pip install --no-cache-dir --no-index --find-links=/wheels -r requirements.txt
+
+COPY . .
+
 CMD ["python", "example_pandas.py"]

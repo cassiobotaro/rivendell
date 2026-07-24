@@ -1,6 +1,10 @@
-FROM python:3
-COPY requirements.txt .
-RUN pip install -r requirements.txt && rm -rf /root/.cache
+FROM python:3.14
+
 WORKDIR /app
-COPY . /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
 CMD ["python", "example_pandas.py"]

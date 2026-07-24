@@ -1,7 +1,11 @@
-FROM python:3.9-alpine
-RUN apk add --update build-base
-COPY requirements.txt .
-RUN pip install -r requirements.txt && rm -rf /root/.cache
+FROM python:3.14-alpine
+
 WORKDIR /app
-COPY . /app
+
+# No compiler needed: pandas ships musllinux wheels (PEP 656).
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
 CMD ["python", "example_pandas.py"]
