@@ -7,7 +7,7 @@ Install the dependencies using [uv](https://docs.astral.sh/uv/).
 
 ```bash
 apt install libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev # required by snake game
-uv install
+uv sync
 ```
 
 ## Summary
